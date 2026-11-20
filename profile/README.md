@@ -5,7 +5,7 @@ The wkhtmltopdf project was archived on 2 January 2023. **marqius-wkhtmltopdf** 
 ### Tested in public
 
 - **[wkhtmltopdf parity suite](https://github.com/marqiushq/wkhtmltopdf-parity)**: the same HTML documents through wkhtmltopdf 0.12.6 and marqius-wkhtmltopdf on every release, on x86-64 and ARM64, with every PDF compared and every result published, misses included. Run it on your own templates; nothing is uploaded.
-- **[Integration examples](https://github.com/marqius-wkhtmltopdf/marqius-wkhtmltopdf-examples)**: runnable HTML-to-PDF examples for 14 wkhtmltopdf libraries, among them python-pdfkit, django-wkhtmltopdf, KnpLabs Snappy, laravel-snappy, wicked_pdf, PDFKit, Rotativa.AspNetCore and go-wkhtmltopdf.
+- **[Integration examples](https://github.com/marqiushq/marqius-wkhtmltopdf-examples)**: runnable HTML-to-PDF examples for 14 wkhtmltopdf libraries, among them python-pdfkit, django-wkhtmltopdf, KnpLabs Snappy, laravel-snappy, wicked_pdf, PDFKit, Rotativa.AspNetCore and go-wkhtmltopdf.
 
 ### Resources
 
