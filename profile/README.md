@@ -12,5 +12,6 @@ The wkhtmltopdf project was archived on 2 January 2023. **marqius-wkhtmltopdf** 
 - [marqius-wkhtmltopdf](https://marqius.com/wkhtmltopdf/): product, plans and a 30-day trial
 - [Migration guide for each wkhtmltopdf library](https://marqius.com/blog/wkhtmltopdf-deprecated-alternatives/)
 - [Docker images](https://hub.docker.com/r/marqius/wkhtmltopdf) for Debian, Alpine and slim deployments, on amd64 and arm64
+- [Homebrew](https://github.com/marqiushq/homebrew-tap): `brew install marqiushq/tap/marqius-wkhtmltopdf` on Apple silicon Macs and Linux
 
 marqius-wkhtmltopdf is commercial software from Simple AI LLC. The parity suite is open source under the MIT licence, and its test documents are public domain (CC0).
