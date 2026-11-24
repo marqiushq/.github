@@ -1,5 +1,16 @@
 ## marqius-wkhtmltopdf: the maintained wkhtmltopdf replacement
 
+**Rebuilt from scratch.**
+
+The command line is wkhtmltopdf's, refined over twelve years and relied on by a great many apps: the same command, the same options, the same HTML templates. Everything behind it is new: one file, no X server, no Qt, no libraries to install, built the modern way:
+
+- released in public, every build with its checksum beside it ([latest release](https://github.com/marqiushq/marqius-wkhtmltopdf/releases/latest))
+- every build attestable in one command:
+  `gh attestation verify marqius-wkhtmltopdf-linux-x86_64 -R marqiushq/marqius-wkhtmltopdf`
+- every release tested in public, on real documents, misses included
+
+The command line proved itself for a decade. The rebuild keeps it running on today's systems (Ubuntu 26.04, Debian 13, Alpine, Heroku-24) and tomorrow's.
+
 **wkhtmltopdf turns HTML into PDF, and a great many apps rely on it** for invoices, receipts, reports and labels. Its project was archived in January 2023, and Debian 13 and Ubuntu 26.04 no longer include it.
 
 **marqius-wkhtmltopdf is a drop-in replacement.** It takes the same command, the same options and the same HTML templates, so your code does not change. It is one program, kept up to date, with nothing else to install, and much faster than wkhtmltopdf.
